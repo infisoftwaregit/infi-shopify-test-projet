@@ -4,6 +4,8 @@ import {environment} from "./environments/environment";
 import morgan from 'morgan';
 import cors from 'cors';
 
+import {productRoute} from './app/product';
+
 const app = express();
 
 // basic setup
@@ -14,7 +16,10 @@ app.use(cors());
 
 app.get('/', (req: Request<any>, res: Response<any>, next: NextFunction) => {
     res.json({companyName: 'InfiSoftware'})
-})
+});
+
+// Routes
+app.use('api/products', productRoute)
 
 let PORT = process.env.PORT || `${environment.PORT}`;
 mongoose.connect(`${environment.MONGO_URL}`, {
