@@ -19,7 +19,7 @@ app.get('/', (req: Request<any>, res: Response<any>, next: NextFunction) => {
 });
 
 // Routes
-app.use('api/products', productRoute)
+app.use('/api/products', productRoute)
 
 // handle errors
 app.use(function(req: Request, res: Response, next: NextFunction) {
