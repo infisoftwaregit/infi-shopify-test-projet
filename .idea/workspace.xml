@@ -4,6 +4,7 @@
     <list default="true" id="fa459755-814b-4c5a-a4af-6a4420cc7494" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/core/layout/toolbar/toolbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/core/layout/toolbar/toolbar.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +24,21 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+<<<<<<< HEAD
                     <option name="branchName" value="dev/demo" />
                     <option name="lastUsedInstant" value="1611679286" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1611679285" />
+=======
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1611681680" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="dev/demo" />
+                    <option name="lastUsedInstant" value="1611681679" />
+>>>>>>> master
                   </RecentBranch>
                 </list>
               </option>
@@ -116,6 +126,7 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state width="2517" height="394" key="GridCell.Tab.0.bottom" timestamp="1611681416733">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -136,6 +147,28 @@
     </state>
     <state width="1398" height="236" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1611621411629" />
     <state width="2517" height="394" key="GridCell.Tab.0.right/2560.313.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1611681416732" />
+=======
+    <state width="2517" height="394" key="GridCell.Tab.0.bottom" timestamp="1611682333952">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1398" height="236" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1611621411630" />
+    <state width="2517" height="394" key="GridCell.Tab.0.bottom/2560.313.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1611682333952" />
+    <state width="2517" height="394" key="GridCell.Tab.0.center" timestamp="1611682333952">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1398" height="236" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1611621411629" />
+    <state width="2517" height="394" key="GridCell.Tab.0.center/2560.313.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1611682333952" />
+    <state width="2517" height="394" key="GridCell.Tab.0.left" timestamp="1611682333952">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1398" height="236" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1611621411628" />
+    <state width="2517" height="394" key="GridCell.Tab.0.left/2560.313.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1611682333952" />
+    <state width="2517" height="394" key="GridCell.Tab.0.right" timestamp="1611682333952">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1398" height="236" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1611621411629" />
+    <state width="2517" height="394" key="GridCell.Tab.0.right/2560.313.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1611682333952" />
+>>>>>>> master
     <state x="1143" y="585" width="348" height="298" key="org.angular.cli.generate" timestamp="1611600292302">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
