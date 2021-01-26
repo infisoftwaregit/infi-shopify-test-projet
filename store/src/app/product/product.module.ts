@@ -3,6 +3,7 @@ import { SingleProductComponent } from './single-product/single-product.componen
 import {RouterModule, Routes} from '@angular/router';
 import { ProductListComponent } from './product-list/product-list.component';
 import {SharedModule} from '../shared/shared.module';
+import {ProductService} from './product.service';
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [SingleProductComponent, ProductListComponent],
-  imports: [SharedModule, RouterModule.forChild(routes)]
+  imports: [SharedModule, RouterModule.forChild(routes)],
+  providers: [ProductService]
 })
 export class ProductModule { }

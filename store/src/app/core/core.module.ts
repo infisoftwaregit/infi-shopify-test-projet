@@ -8,7 +8,7 @@ import {SharedModule} from '../shared/shared.module';
 import { AlertComponent } from './layout/alert/alert.component';
 
 @NgModule({
-  imports: [CommonModule, RouterModule, HttpClientModule, SharedModule],
+  imports: [ RouterModule, HttpClientModule, SharedModule],
   exports: [ToolbarComponent, AlertComponent],
   declarations: [ToolbarComponent, AlertComponent],
 })

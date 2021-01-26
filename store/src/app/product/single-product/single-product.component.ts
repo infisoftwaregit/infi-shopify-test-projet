@@ -1,5 +1,7 @@
 import { IProduct } from './../../core/models/product';
 import {Component, Input, OnInit} from '@angular/core';
+import {CartService} from "../../core/services";
+import {Item} from "../../core/models";
 
 @Component({
   selector: 'app-single-product',
@@ -15,16 +17,21 @@ export class SingleProductComponent implements OnInit {
     qty: 12,
     price: 200,
     thumbnail: 'https://material.angular.io/assets/img/examples/shiba2.jpg'
-  }
+  };
 
-  constructor() { }
+  constructor(
+    private cartService: CartService
+  ) { }
 
   ngOnInit(): void {
   }
 
-
-  addCart() {
-    console.log(this.product);
-    // add the product to the cart here
+  addCart(): void {
+    const item: Item = {
+      ...this.product,
+      selectedQty: 1,
+      subTotal: this.product.price
+    };
+    this.cartService.add(item);
   }
 }

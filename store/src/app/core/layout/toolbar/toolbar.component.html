@@ -5,7 +5,7 @@
     <a class="menu-link" href="" [routerLink]="['/products']">Produits</a>
   </ng-container>
   <button (click)="goToCart()" type="button" class="btn btn-outline-primary" style="margin-left: 10px;">
-    Panier <span class="badge badge-danger">2</span>
+    Panier <span class="badge badge-danger">{{totalItems$ | async }}</span>
     <span class="sr-only">unread messages</span>
   </button>
 

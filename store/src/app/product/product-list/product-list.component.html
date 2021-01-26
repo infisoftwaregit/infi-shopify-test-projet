@@ -4,8 +4,8 @@
   <h4>Liste des produits</h4>
   <hr>
   <div class="row">
-    <div class="col-md-4">
-      <app-single-product></app-single-product>
+    <div class="col-md-4" *ngFor="let product of productList$ | async">
+      <app-single-product [product]="product" ></app-single-product>
     </div>
   </div>
 </ng-container>

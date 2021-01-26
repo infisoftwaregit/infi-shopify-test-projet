@@ -11,7 +11,7 @@ export class AppComponent {
 
   constructor( private alertService: AlertService){
       // How you can use alert service to display message to user
-      this.alertService.show({type: 'info', message: "Bienvenue sur l'appli de test chez INFI"});
+      this.alertService.show({type: 'info', message: 'Bienvenue sur l\'appli de test chez INFI'});
   }
 
 

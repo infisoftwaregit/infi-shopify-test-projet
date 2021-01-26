@@ -2,19 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa459755-814b-4c5a-a4af-6a4420cc7494" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/InfiShopify.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/cart/cart.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/cart/cart.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/cart/cart.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/cart/cart.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/core/core.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/core/core.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/core/layout/toolbar/toolbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/core/layout/toolbar/toolbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/core/layout/toolbar/toolbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/core/layout/toolbar/toolbar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/core/models/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/core/models/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/core/models/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/core/models/product.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/core/services/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/core/services/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/product/product-list/product-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/product/product-list/product-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/product/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/product/product-list/product-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/product/product.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/product/product.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/product/single-product/single-product.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/product/single-product/single-product.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/shared/shared.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/shared/shared.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/environments/environment.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dev/demo" />
+                    <option name="lastUsedInstant" value="1611684104" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1611684103" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="PropertiesComponent">
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -41,21 +78,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2517" height="394" key="GridCell.Tab.0.bottom" timestamp="1611683680496">
+    <state width="2517" height="394" key="GridCell.Tab.0.bottom" timestamp="1611684912276">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="394" key="GridCell.Tab.0.bottom/2560.313.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1611683680496" />
-    <state width="2517" height="394" key="GridCell.Tab.0.center" timestamp="1611683680496">
+    <state width="2517" height="394" key="GridCell.Tab.0.bottom/2560.313.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1611684912276" />
+    <state width="2517" height="394" key="GridCell.Tab.0.center" timestamp="1611684912276">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="394" key="GridCell.Tab.0.center/2560.313.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1611683680496" />
-    <state width="2517" height="394" key="GridCell.Tab.0.left" timestamp="1611683680495">
+    <state width="2517" height="394" key="GridCell.Tab.0.center/2560.313.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1611684912276" />
+    <state width="2517" height="394" key="GridCell.Tab.0.left" timestamp="1611684912276">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="394" key="GridCell.Tab.0.left/2560.313.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1611683680495" />
-    <state width="2517" height="394" key="GridCell.Tab.0.right" timestamp="1611683680496">
+    <state width="2517" height="394" key="GridCell.Tab.0.left/2560.313.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1611684912276" />
+    <state width="2517" height="394" key="GridCell.Tab.0.right" timestamp="1611684912276">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="394" key="GridCell.Tab.0.right/2560.313.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1611683680496" />
+    <state width="2517" height="394" key="GridCell.Tab.0.right/2560.313.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1611684912276" />
   </component>
 </project>
