@@ -1,8 +1,10 @@
 import {Cart, Item} from '../models';
 import {BehaviorSubject, Observable} from 'rxjs';
 import {Injectable} from '@angular/core';
-import {map} from 'rxjs/operators';
+import {map, tap} from 'rxjs/operators';
 import {AlertService} from './alert.service';
+import {HttpClient} from '@angular/common/http';
+import {environment} from "../../../environments/environment";
 
 @Injectable()
 export class CartService {
@@ -12,7 +14,8 @@ export class CartService {
   public cart$: Observable<Cart> = this.cart.asObservable();
 
   constructor(
-    private alertService: AlertService
+    private alertService: AlertService,
+    private http: HttpClient
   ) {
   }
 
@@ -41,5 +44,14 @@ export class CartService {
   updateQty(item: Item, qty: number): void {
     this.cartStock.updateQty(item, qty);
     this.cart.next(this.cartStock);
+  }
+
+  save(): Observable<Cart> {
+    return this.http.post<Cart>(`${environment.api}/orders`, this.cartStock).pipe(
+      tap(() => {
+        this.cartStock = new Cart();
+        this.cart.next(this.cartStock);
+      })
+    );
   }
 }

@@ -32,4 +32,7 @@ export class CartComponent implements OnInit {
     this.cartService.updateQty(item, qty);
   }
 
+  saveOrder(): void{
+    this.cartService.save().subscribe();
+  }
 }

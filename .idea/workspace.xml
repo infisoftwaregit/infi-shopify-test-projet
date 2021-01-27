@@ -3,16 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="fa459755-814b-4c5a-a4af-6a4420cc7494" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/app/product/product.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/app/product/product.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/app/product/product.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/app/product/product.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/libs/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/libs/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/src/app/cart/cart.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/cart/cart.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/src/app/cart/cart.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/cart/cart.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/app/cart/cart.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/cart/cart.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/app/core/models/cart.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/core/models/cart.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/app/core/models/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/core/models/product.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/app/core/services/alert.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/core/services/alert.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/src/app/core/services/cart.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/core/services/cart.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/app/product/single-product/single-product.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/product/single-product/single-product.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/app/shared/shared.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/app/shared/shared.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,25 +95,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="236" key="GridCell.Tab.0.bottom" timestamp="1611728458144">
+    <state width="1398" height="236" key="GridCell.Tab.0.bottom" timestamp="1611772847586">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="236" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1611728458144" />
+    <state width="1398" height="236" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1611772847586" />
     <state width="2517" height="394" key="GridCell.Tab.0.bottom/2560.313.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1611684912276" />
-    <state width="1398" height="236" key="GridCell.Tab.0.center" timestamp="1611728458142">
+    <state width="1398" height="236" key="GridCell.Tab.0.center" timestamp="1611772847585">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="236" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1611728458142" />
+    <state width="1398" height="236" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1611772847585" />
     <state width="2517" height="394" key="GridCell.Tab.0.center/2560.313.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1611684912276" />
-    <state width="1398" height="236" key="GridCell.Tab.0.left" timestamp="1611728458141">
+    <state width="1398" height="236" key="GridCell.Tab.0.left" timestamp="1611772847584">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="236" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1611728458141" />
+    <state width="1398" height="236" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1611772847584" />
     <state width="2517" height="394" key="GridCell.Tab.0.left/2560.313.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1611684912276" />
-    <state width="1398" height="236" key="GridCell.Tab.0.right" timestamp="1611728458143">
+    <state width="1398" height="236" key="GridCell.Tab.0.right" timestamp="1611772847585">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="236" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1611728458143" />
+    <state width="1398" height="236" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1611772847585" />
     <state width="2517" height="394" key="GridCell.Tab.0.right/2560.313.1920.1160/0.0.2560.1400@0.0.2560.1400" timestamp="1611684912276" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1611770976110">
       <screen x="0" y="0" width="1440" height="900" />

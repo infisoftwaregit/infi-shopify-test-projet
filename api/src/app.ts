@@ -5,6 +5,7 @@ import morgan from 'morgan';
 import cors from 'cors';
 
 import {productRoute} from './app/product';
+import {orderRoute} from './app/order';
 
 const app = express();
 
@@ -19,7 +20,8 @@ app.get('/', (req: Request<any>, res: Response<any>, next: NextFunction) => {
 });
 
 // Routes
-app.use('/api/products', productRoute)
+app.use('/api/products', productRoute);
+app.use('/api/orders', orderRoute);
 
 // handle errors
 app.use(function(req: Request, res: Response, next: NextFunction) {

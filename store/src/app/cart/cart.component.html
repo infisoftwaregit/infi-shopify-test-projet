@@ -30,7 +30,7 @@
         <div class="col-md-4">
           <h4 style="font-size: 22px; font-weight: bold">Total: {{cart.total}} F CFA</h4>
           <br>
-          <button *ngIf="cart.totalItems > 0" class="btn-block" mat-raised-button style="background-color: orangered; color: white; text-transform: uppercase;">Valider ma commande</button>
+          <button (click)="saveOrder()" *ngIf="cart.totalItems > 0" class="btn-block" mat-raised-button style="background-color: orangered; color: white; text-transform: uppercase;">Valider ma commande</button>
         </div>
       </div>
     </mat-card-content>

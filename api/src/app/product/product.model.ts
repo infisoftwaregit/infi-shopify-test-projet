@@ -10,10 +10,10 @@ const productSchema = new Schema(
         price: Number,
         qty: Number,
         thumbnail: String,
-        destination: String,
+        description: String,
     },
     { timestamps: true }
-);
+    );
 
 export const Product = mongoose.model<ProductDocument>(
     'Product',
