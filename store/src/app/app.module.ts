@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
-import {FormsModule} from '@angular/forms';
 import {CartService} from './core/services';
 
 @NgModule({
@@ -16,7 +15,6 @@ import {CartService} from './core/services';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FormsModule,
     CoreModule
   ],
   providers: [CartService],

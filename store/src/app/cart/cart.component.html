@@ -16,9 +16,8 @@
             <td>{{item.name}}</td>
             <td>
               <label>
-                <select class="form-control">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
+                <select class="form-control" [ngModel]="item.selectedQty" (change)="changeSelectedQty(item, $event.target.value)">
+                  <option *ngFor="let _ of item.qtyArray; let i = index" [value]="i + 1">{{i + 1}}</option>
                 </select>
               </label>
             </td>
@@ -30,6 +29,8 @@
       <div class="row" style="display: flex; justify-content: flex-end;">
         <div class="col-md-4">
           <h4 style="font-size: 22px; font-weight: bold">Total: {{cart.total}} F CFA</h4>
+          <br>
+          <button *ngIf="cart.totalItems > 0" class="btn-block" mat-raised-button style="background-color: orangered; color: white; text-transform: uppercase;">Valider ma commande</button>
         </div>
       </div>
     </mat-card-content>

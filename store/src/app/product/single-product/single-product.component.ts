@@ -1,7 +1,7 @@
-import { IProduct } from './../../core/models/product';
+import { IProduct } from '../../core/models';
 import {Component, Input, OnInit} from '@angular/core';
-import {CartService} from "../../core/services";
-import {Item} from "../../core/models";
+import {CartService} from '../../core/services';
+import {Item} from '../../core/models';
 
 @Component({
   selector: 'app-single-product',
@@ -11,7 +11,7 @@ import {Item} from "../../core/models";
 export class SingleProductComponent implements OnInit {
 
   @Input() product: IProduct = {
-    id: '1',
+    _id: '1',
     name: 'Canish',
     description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.',
     qty: 12,

@@ -1,5 +1,5 @@
-import { Injectable } from "@angular/core";
-import { BehaviorSubject } from "rxjs";
+import { Injectable } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
 
 export interface IAlert {type: 'default' | 'primary' | 'secondary' | 'danger' | 'warning' | 'info' | 'success', message: string}
 
@@ -10,12 +10,12 @@ export class AlertService {
 
   private list: IAlert[] = [];
 
-  private readonly _alertList$: BehaviorSubject<IAlert[]> = new BehaviorSubject<IAlert[]>(this.list);
-  public alertList$ = this._alertList$.asObservable();
+  private readonly alertList: BehaviorSubject<IAlert[]> = new BehaviorSubject<IAlert[]>(this.list);
+  public alertList$ = this.alertList.asObservable();
 
   constructor(){}
 
-  removeAlert(index: number) {
+  removeAlert(index: number): void {
     this.list = this.list.filter((value: IAlert, i: number) => {
       if (i === index) {
         return false;
@@ -23,17 +23,15 @@ export class AlertService {
       return true;
     });
 
-    this._alertList$.next(this.list);
+    this.alertList.next(this.list);
   }
 
-  show(body: IAlert) {
+  show(body: IAlert): void {
     this.list = [...this.list, body];
-    this._alertList$.next(this.list);
+    this.alertList.next(this.list);
   }
 
-  clearAlert() {
-    this._alertList$.next([]);
+  clearAlert(): void {
+    this.alertList.next([]);
   }
-
-
 }

@@ -27,9 +27,19 @@ export class CartService {
   }
 
   add(item: Item): void {
+    // check qty here
+    const existingItem = this.cartStock.items.find(value => value._id === item._id);
+    if (existingItem && (existingItem.selectedQty >= item.qty)) {
+      this.alertService.show({type: 'danger', message: 'Quantite insuffisante'});
+      return;
+    }
     this.cartStock.add(item);
     this.cart.next(this.cartStock);
     this.alertService.show({type: 'success', message: 'Produit ajouter au panier'});
-    console.log(this.cartStock);
+  }
+
+  updateQty(item: Item, qty: number): void {
+    this.cartStock.updateQty(item, qty);
+    this.cart.next(this.cartStock);
   }
 }

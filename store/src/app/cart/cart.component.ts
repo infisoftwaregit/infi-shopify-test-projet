@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {CartService} from '../core/services';
 import {Observable} from 'rxjs';
-import {Cart} from '../core/models';
+import {Cart, Item} from '../core/models';
+import {map} from 'rxjs/operators';
 
 @Component({
   selector: 'app-cart',
@@ -15,7 +16,20 @@ export class CartComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.cart$ = this.cartService.getCart();
+    this.cart$ = this.cartService.getCart().pipe(
+      map(cart => {
+        return {
+          ...cart,
+          items: cart.items.map(item => {
+            return {...item, qtyArray: new Array(item.qty)};
+          })
+        };
+      })
+    ) as Observable<Cart>;
+  }
+
+  changeSelectedQty(item: Item, qty: number): void {
+    this.cartService.updateQty(item, qty);
   }
 
 }
