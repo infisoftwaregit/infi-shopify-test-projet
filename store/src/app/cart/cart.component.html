@@ -16,7 +16,7 @@
             <td>{{item.name}}</td>
             <td>
               <label>
-                <select class="form-control" [ngModel]="item.selectedQty" (change)="changeSelectedQty(item, $event.target.value)">
+                <select class="form-control" [ngModel]="item.selectedQty" (change)="changeSelectedQty(item, $event)">
                   <option *ngFor="let _ of item.qtyArray; let i = index" [value]="i + 1">{{i + 1}}</option>
                 </select>
               </label>

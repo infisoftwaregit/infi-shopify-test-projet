@@ -28,7 +28,8 @@ export class CartComponent implements OnInit {
     ) as Observable<Cart>;
   }
 
-  changeSelectedQty(item: Item, qty: number): void {
+  changeSelectedQty(item: Item, event: Event): void {
+    const qty: number = +(event.target as HTMLInputElement).value;
     this.cartService.updateQty(item, qty);
   }
 
