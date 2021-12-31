@@ -1,7 +1,7 @@
 # MEAN STACK DEV - TEST
 
 ## Description
-**INFI SHOPIFY** est une application E-commerce développer en ``MEAN (Mongo Express Angular Node)``, les principales fonctionnalités de cette application est l'ajout au panier la modification de la quantite et la validation d'une commande
+**INFI SHOPIFY** est une application E-commerce développer en ``MEAN (Mongo Express Angular Node)`` or ``MERN (Mongo Express React Node)``, les principales fonctionnalités de cette application est l'ajout au panier la modification de la quantite et la validation d'une commande
 
 ## Prérequis
 il vous faut :
@@ -12,9 +12,11 @@ il vous faut :
 Avant tout vous avez un template front `Angular` et un back `Express & TypeScript` déjà établie pour vous, si vous n'êtes pas alaise avec `Express & TypeScript` vous etes libre de changer le back en `Express`
 seulement.
 
-- *Front (Angular)*
+- *Front (Angular)* 
+- *Front (React)*
 
 `cd store`
+Cette application front est developper en `Angular`
 ````console
 npm i && npm run start
  ````
