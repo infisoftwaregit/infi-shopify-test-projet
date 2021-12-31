@@ -1,4 +1,4 @@
-# MEAN STACK DEV - TEST
+# (MEAN / MEARN) STACK DEV - TEST
 
 ## Description
 **INFI SHOPIFY** est une application E-commerce développer en ``MEAN (Mongo Express Angular Node)`` or ``MERN (Mongo Express React Node)``, les principales fonctionnalités de cette application est l'ajout au panier la modification de la quantite et la validation d'une commande
