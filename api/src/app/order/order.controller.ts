@@ -26,9 +26,6 @@ export const create = async (req: Request, res: Response, next: NextFunction) =>
                 await prodI.save();
             }
         }
-        req.body.items.forEach((item: Item) => {
-
-        });
         return res.json(order);
     } catch (e) {
         throw new Error("Une erreur est survenue");
