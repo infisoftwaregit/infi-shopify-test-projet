@@ -1,7 +1,7 @@
 # (MEAN / MEARN) STACK DEV - TEST
 
 ## Description
-**INFI SHOPIFY** est une application E-commerce développer en ``MEAN (Mongo Express Angular Node)`` or ``MERN (Mongo Express React Node)``, les principales fonctionnalités de cette application est l'ajout au panier la modification de la quantite et la validation d'une commande
+**INFI SHOPIFY** est une application E-commerce développer en ``MEAN (Mongo Express Angular Node)`` ou ``MERN (Mongo Express React Node)``, les principales fonctionnalités de cette application est l'ajout au panier la modification de la quantite et la validation d'une commande
 
 ## Prérequis
 il vous faut :
@@ -9,7 +9,7 @@ il vous faut :
 - Une connexion internet
 
 ## Démarrage
-Avant tout vous avez un template front `Angular` et un back `Express & TypeScript` déjà établie pour vous, si vous n'êtes pas alaise avec `Express & TypeScript` vous etes libre de changer le back en `Express`
+Avant tout vous avez un template front `Angular` et un back `Express & TypeScript` déjà établie pour vous, si vous n'êtes pas alaise avec `Express & TypeScript` vous êtes libre de changer le back en `Express`
 seulement.
 
 - *Front (Angular)* 
@@ -32,7 +32,7 @@ Votre api angular est démarrée sur le port [http://localhost:3000](http://loca
 
 ## A Faire
 
-Vous devez implementer les tâches suivantes :
+Vous devez implémenter les tâches suivantes :
 ### Api (NodeJs - Express - Mongo)
 
 - Une `api` pour la liste des produits.
@@ -41,8 +41,8 @@ Vous devez implementer les tâches suivantes :
 ### Front (Angular / React)
 >Pour l'application `Front` vous avez le choix entre `Angular` et `React`, si vous choisissez `Angular`, il existe déjà un boilerplate  dans le repo.
 
-- Affichez la liste des produits sur la page d'accueil comme sur la demo qui peut vous sevir d'exemple.
-- Gérer l'etat de l'ajout au panier et l'incrementation du nombre d'article dans le panier.
+- Affichez la liste des produits sur la page d'accueil comme sur la demo qui peut vous servir d'exemple.
+- Gérer l'etat de l'ajout au panier et l'incrémentation du nombre d'article dans le panier.
 - Affichez les élements du panier sur une page, possibilité de changer la  quantité de chaque article et cela doit impacter le montant global de la commande
 - Mettre une action de validation de la commande et videz le panier après sauvegarde de la commande.
 
