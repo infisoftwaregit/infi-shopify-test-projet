@@ -42,9 +42,9 @@ Vous devez implementer les tâches suivantes :
 >Pour l'application `Front` vous avez le choix entre `Angular` et `React`, si vous choisissez `Angular`, il existe déjà un boilerplate  dans le repo.
 
 - Affichez la liste des produits sur la page d'accueil comme sur la demo qui peut vous sevir d'exemple.
-- Gerer l'etat de l'ajout au panier et l'incrementation du nombre d'article dans le panier.
+- Gérer l'etat de l'ajout au panier et l'incrementation du nombre d'article dans le panier.
 - Affichez les élements du panier sur une page, possibilité de changer la  quantité de chaque article et cela doit impacter le montant global de la commande
-- Mettre une action de validation de la commande et videz le panier apres sauvegarde de la commande.
+- Mettre une action de validation de la commande et videz le panier après sauvegarde de la commande.
 
 ## Bonus
 - Ajouter une page de commande pour lister les commandes et une api
