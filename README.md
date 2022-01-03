@@ -33,11 +33,18 @@ Votre api angular est démarrée sur le port [http://localhost:3000](http://loca
 ## A Faire
 
 Vous devez implementer les tâches suivantes :
+### Api (NodeJs - Express - Mongo)
 
-- Implementer une api pour récupérer les produits et les afficher sur la page de produit. Les produits ont été créés dans la collection `products` qui existe déjà dans la base de données sur `Mongo Atlas`.
-- L'ajout de produit dans un panier incrémente le nombre d'élément dans le panier en haut à droite
-- Lister les produits du panier sur la page `panier` avec possibilité de modifier la quantité
-- Implementer une api de sauvegarde de commande
+- Une `api` pour la liste des produits.
+- Une `api` pour enregistrer une commande, mettre a jour la quantité de chaque article en base.
+
+### Front (Angular / React)
+>Pour l'application `Front` vous avez le choix entre `Angular` et `React`, si vous choisissez `Angular`, il existe déjà un boilerplate  dans le repo.
+
+- Affichez la liste des produits sur la page d'accueil comme sur la demo qui peut vous sevir d'exemple.
+- Gerer l'etat de l'ajout au panier et l'incrementation du nombre d'article dans le panier.
+- Affichez les élements du panier sur une page, possibilité de changer la  quantité de chaque article et cela doit impacter le montant global de la commande
+- Mettre une action de validation de la commande et videz le panier apres sauvegarde de la commande.
 
 ## Bonus
 - Ajouter une page de commande pour lister les commandes et une api
